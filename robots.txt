@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://srisrigoldtesting-sketch.github.io/srisritesting/sitemap.xml
