@@ -4,44 +4,103 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>SRI SRI GOLD TESTING CENTRE</title>
-  <meta name="description" content="Gold and precious-metal purity testing, clear reports, and professional appraisal guidance.">
+  <meta name="description" content="Gold and precious-metal purity testing, live gold and silver reference rates, clear reports, reviews and professional appraisal guidance.">
   <meta name="theme-color" content="#6e1026">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://srisrigoldtesting-sketch.github.io/srisritesting/">
   <style>
-    :root{--wine:#6e1026;--ink:#18120f;--gold:#e6c16a;--cream:#fbfaf7;--line:#ded5c5;--muted:#6f665c}
+    :root{--wine:#6e1026;--ink:#18120f;--gold:#e6c16a;--cream:#fbfaf7;--line:#ded5c5;--muted:#6f665c;--green:#176b45}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,Arial,system-ui,sans-serif;line-height:1.65}
     a{color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}
     header{position:sticky;top:0;z-index:10;background:rgba(24,18,15,.96);color:#fff;border-bottom:1px solid rgba(255,255,255,.1);backdrop-filter:blur(12px)}
     .nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:900;letter-spacing:.03em}
     .mark{width:44px;height:44px;border:1px solid rgba(230,193,106,.5);border-radius:15px;display:grid;place-items:center;background:rgba(230,193,106,.1);color:var(--gold);font-family:Georgia,serif;font-weight:800}
-    nav{display:flex;gap:22px}nav a{text-decoration:none;color:rgba(255,255,255,.7);font-size:14px}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:12px;text-decoration:none;font-weight:800;border:1px solid transparent;background:var(--gold);color:#2e1c09}
-    .button.outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.24)}
+    nav{display:flex;gap:17px}nav a{text-decoration:none;color:rgba(255,255,255,.74);font-size:14px}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:12px;text-decoration:none;font-weight:800;border:1px solid transparent;background:var(--gold);color:#2e1c09}
+    .button.outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.24)}.button.wine{background:var(--wine);color:#fff}.button.google{background:#fff;color:#282828;border-color:#ddd}
     .hero{background:radial-gradient(circle at 20% 20%,rgba(110,16,38,.55),transparent 37%),linear-gradient(135deg,#17110f,#281814);color:#fff;padding:94px 0 86px;overflow:hidden}
     .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:56px}.eyebrow{display:inline-flex;padding:8px 14px;border:1px solid rgba(230,193,106,.3);border-radius:999px;color:#f3d58a;background:rgba(230,193,106,.08);font-size:14px;font-weight:700}
     h1{font-size:clamp(42px,6vw,72px);line-height:1.08;margin:24px 0 18px;letter-spacing:-.045em}.gold{color:var(--gold)}.lead{font-size:18px;color:rgba(255,255,255,.68);max-width:650px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
     .seal{aspect-ratio:1;border-radius:50%;border:1px solid rgba(230,193,106,.35);display:grid;place-items:center;position:relative;background:rgba(230,193,106,.06);box-shadow:0 0 0 26px rgba(230,193,106,.025)}
     .seal:before,.seal:after{content:"";position:absolute;border:1px solid rgba(230,193,106,.16);border-radius:50%}.seal:before{inset:12%}.seal:after{inset:26%}.seal strong{font-family:Georgia,serif;font-size:clamp(52px,8vw,88px);color:var(--gold);z-index:1}
-    section{padding:82px 0}.section-head{max-width:730px;margin-bottom:34px}.kicker{text-transform:uppercase;letter-spacing:.2em;color:var(--wine);font-size:13px;font-weight:900}.section-head h2{font-size:clamp(30px,4vw,44px);line-height:1.2;margin:10px 0}.section-head p{color:var(--muted)}
+    section{padding:82px 0}.section-head{max-width:760px;margin-bottom:34px}.kicker{text-transform:uppercase;letter-spacing:.2em;color:var(--wine);font-size:13px;font-weight:900}.section-head h2{font-size:clamp(30px,4vw,44px);line-height:1.2;margin:10px 0}.section-head p{color:var(--muted)}
     .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 10px 35px rgba(61,32,16,.05)}.card .num{color:#b98a34;font-family:Georgia,serif;font-size:34px}.card h3{margin:12px 0 6px;font-size:20px}.card p{margin:0;color:var(--muted)}
+    .rates{background:#efe8dc}.rate-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.rate-card{background:#fff;border:1px solid #d9c7aa;border-radius:24px;padding:26px;position:relative;overflow:hidden}.rate-card:after{content:"";position:absolute;width:90px;height:90px;border-radius:50%;right:-30px;top:-30px;background:rgba(230,193,106,.2)}.rate-label{font-weight:850;font-size:18px}.rate-purity{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.09em}.rate-value{display:block;font-size:clamp(30px,4vw,42px);font-family:Georgia,serif;color:var(--wine);font-weight:700;margin:12px 0 2px}.rate-unit{color:var(--muted);font-size:14px}.rate-meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:22px;color:var(--muted);font-size:13px}.live{color:var(--green);font-weight:800}.rate-note{margin:20px 0 0;color:var(--muted);font-size:13px}
+    .announcement{padding-top:0;background:#efe8dc}.announce-box{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;background:var(--wine);color:#fff;border-radius:24px;padding:28px 32px;box-shadow:0 14px 38px rgba(110,16,38,.16)}.announce-icon{width:54px;height:54px;border-radius:16px;background:rgba(255,255,255,.1);display:grid;place-items:center;font-size:26px}.announce-box h2{margin:0 0 4px;font-size:24px}.announce-box p{margin:0;color:rgba(255,255,255,.76)}
     .report{background:#1b1512;color:#fff}.report-box{display:grid;grid-template-columns:1fr auto;align-items:center;gap:28px;padding:36px;border:1px solid rgba(230,193,106,.22);border-radius:28px;background:rgba(255,255,255,.04)}.report h2{margin:0 0 8px;font-size:34px}.report p{margin:0;color:rgba(255,255,255,.62)}
+    .reviews{background:#fff}.review-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:22px;align-items:stretch}.google-card{border:1px solid var(--line);border-radius:26px;padding:32px;background:#fbfaf8;display:flex;flex-direction:column;justify-content:center}.google-logo{font-size:27px;font-weight:900;letter-spacing:-.04em}.google-logo span:nth-child(1){color:#4285f4}.google-logo span:nth-child(2){color:#ea4335}.google-logo span:nth-child(3){color:#fbbc05}.google-logo span:nth-child(4){color:#4285f4}.google-logo span:nth-child(5){color:#34a853}.google-logo span:nth-child(6){color:#ea4335}.stars{color:#f4b400;font-size:25px;letter-spacing:.08em;margin:12px 0}.google-card h3{font-size:25px;margin:0}.google-card p{color:var(--muted)}.map-frame{width:100%;min-height:360px;border:0;border-radius:26px;background:#eee}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.gallery-card{min-height:240px;border-radius:24px;padding:24px;text-decoration:none;color:#fff;display:flex;align-items:flex-end;position:relative;overflow:hidden;background:linear-gradient(145deg,#311d17,#6e1026)}.gallery-card:nth-child(2){background:linear-gradient(145deg,#6e1026,#b78631)}.gallery-card:nth-child(3){background:linear-gradient(145deg,#1d1714,#805e2a)}.gallery-card:before{content:"◉";position:absolute;right:24px;top:15px;font-size:76px;color:rgba(255,255,255,.09)}.gallery-card strong{display:block;font-size:21px}.gallery-card span{color:rgba(255,255,255,.72);font-size:14px}
     .about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:0;border:1px solid var(--line);border-radius:28px;overflow:hidden;background:#fff}.about-badge{background:var(--wine);color:#fff;min-height:320px;display:grid;place-items:center;text-align:center;padding:34px}.about-copy{padding:42px}.about-copy h2{font-size:36px;margin:0 0 14px}.about-copy p{color:var(--muted)}
     footer{background:#17110f;color:rgba(255,255,255,.6);padding:28px 0}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:14px}
-    @media(max-width:780px){nav{display:none}.hero{padding:70px 0}.hero-grid,.about-grid{grid-template-columns:1fr}.seal{width:min(320px,80vw);margin:20px auto 0}.cards{grid-template-columns:1fr}.report-box{grid-template-columns:1fr}.about-copy{padding:28px}section{padding:64px 0}.brand span:last-child{font-size:13px}}
+    @media(max-width:900px){nav{display:none}.rate-grid,.cards,.gallery-grid{grid-template-columns:1fr}.review-grid{grid-template-columns:1fr}}
+    @media(max-width:780px){.hero{padding:70px 0}.hero-grid,.about-grid{grid-template-columns:1fr}.seal{width:min(320px,80vw);margin:20px auto 0}.report-box{grid-template-columns:1fr}.about-copy{padding:28px}section{padding:64px 0}.brand span:last-child{font-size:13px}.announcement{padding-top:0}.announce-box{grid-template-columns:1fr}.map-frame{min-height:300px}}
   </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">SS</span><span>SRI SRI GOLD TESTING CENTRE</span></a><nav aria-label="Primary navigation"><a href="#services">Services</a><a href="#reports">Reports</a><a href="#about">About Us</a></nav><a class="button" href="#reports">Verify Report</a></div></header>
+<header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">SS</span><span>SRI SRI GOLD TESTING CENTRE</span></a><nav aria-label="Primary navigation"><a href="#rates">Rates</a><a href="#services">Services</a><a href="#reports">Reports</a><a href="#reviews">Reviews</a><a href="#gallery">Gallery</a></nav><a class="button" href="#reports">Verify Report</a></div></header>
 <main>
-  <section class="hero" id="top"><div class="wrap hero-grid"><div><span class="eyebrow">Advanced Precious Metal Testing</span><h1>Clear confidence in the <span class="gold">purity of your gold</span></h1><p class="lead">Modern gold and precious-metal testing with clear, easy-to-understand results and experienced appraisal guidance.</p><div class="actions"><a class="button" href="#services">View Our Services</a><a class="button outline" href="https://sri-sri-gold-testing-centre.kkbhanuchand.chatgpt.site/#reports" rel="noopener">Secure Report Portal</a></div></div><div class="seal" aria-hidden="true"><strong>SS</strong></div></div></section>
+  <section class="hero" id="top"><div class="wrap hero-grid"><div><span class="eyebrow">Advanced Precious Metal Testing</span><h1>Clear confidence in the <span class="gold">purity of your gold</span></h1><p class="lead">Modern gold and precious-metal testing with clear, easy-to-understand results and experienced appraisal guidance.</p><div class="actions"><a class="button" href="#rates">View Today's Rates</a><a class="button outline" href="https://sri-sri-gold-testing-centre.kkbhanuchand.chatgpt.site/#reports" rel="noopener">Secure Report Portal</a></div></div><div class="seal" aria-hidden="true"><strong>SS</strong></div></div></section>
+
+  <section class="rates" id="rates"><div class="wrap"><div class="section-head"><div class="kicker">Daily Market Update</div><h2>Gold and silver reference rates</h2><p>Automatically calculated in Indian Rupees from international spot-market prices and the latest available USD/INR exchange rate.</p></div><div class="rate-grid">
+    <article class="rate-card"><div class="rate-label">24K Gold</div><div class="rate-purity">99.9% pure</div><span class="rate-value" id="gold24">Loading…</span><span class="rate-unit">per 1 gram</span></article>
+    <article class="rate-card"><div class="rate-label">22K Gold</div><div class="rate-purity">91.6% pure</div><span class="rate-value" id="gold22">Loading…</span><span class="rate-unit">per 1 gram</span></article>
+    <article class="rate-card"><div class="rate-label">Silver</div><div class="rate-purity">International spot reference</div><span class="rate-value" id="silver">Loading…</span><span class="rate-unit">per 1 gram</span></article>
+  </div><div class="rate-meta"><span class="live" id="rate-status">● Fetching live market data</span><span id="rate-time">Please wait…</span></div><p class="rate-note">Reference rates only. Local retail rates, taxes, making charges and dealer margins may differ. Please contact the centre for the final applicable rate.</p></div></section>
+
+  <section class="announcement" id="announcement"><div class="wrap"><div class="announce-box"><div class="announce-icon" aria-hidden="true">📢</div><div><h2>Latest Announcement</h2><p>Welcome to SRI SRI GOLD TESTING CENTRE. Visit us for accurate XRF purity testing and experienced appraisal guidance.</p></div></div></div></section>
+
   <section id="services"><div class="wrap"><div class="section-head"><div class="kicker">Our Services</div><h2>From accurate testing to meaningful results</h2><p>Correct procedures, clear explanations and careful handling of every customer's item are at the heart of our service.</p></div><div class="cards">
     <article class="card"><div class="num">01</div><h3>XRF Purity Testing</h3><p>Fast analysis of metal composition and purity with minimal impact on the item.</p></article>
     <article class="card"><div class="num">02</div><h3>Precious Metal Testing</h3><p>Methodical testing services for gold, silver and other precious metals.</p></article>
     <article class="card"><div class="num">03</div><h3>Appraisal Guidance</h3><p>Experienced guidance to understand weight, purity and testing results clearly.</p></article>
   </div></div></section>
-  <section class="report" id="reports"><div class="wrap"><div class="report-box"><div><h2>Verify Your Testing Report</h2><p>View your result securely using the report number and the last four digits of your phone number.</p></div><a class="button" href="https://sri-sri-gold-testing-centre.kkbhanuchand.chatgpt.site/#reports" rel="noopener">Open Report Portal →</a></div></div></section>
+
+  <section class="report" id="reports"><div class="wrap"><div class="report-box"><div><h2>Verify Your Testing Report</h2><p>Customers can securely view their result using the report number and the last four digits of their phone number. Results are view-only.</p></div><a class="button" href="https://sri-sri-gold-testing-centre.kkbhanuchand.chatgpt.site/#reports" rel="noopener">View My Result →</a></div></div></section>
+
+  <section class="reviews" id="reviews"><div class="wrap"><div class="section-head"><div class="kicker">Google Reviews</div><h2>See what customers say</h2><p>Reviews remain on the official Google Business listing so visitors always see genuine, current feedback.</p></div><div class="review-grid"><div class="google-card"><div class="google-logo" aria-label="Google"><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></div><div class="stars" aria-hidden="true">★★★★★</div><h3>SRI SRI GOLD TESTING CENTRE</h3><p>Read all verified customer reviews, view public business photos, get directions or leave your own review on Google.</p><div class="actions"><a class="button wine" href="https://maps.app.goo.gl/qDHBpyy9uVs3v8k46" target="_blank" rel="noopener noreferrer">Read All Google Reviews</a></div></div><iframe class="map-frame" title="SRI SRI GOLD TESTING CENTRE on Google Maps" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=SRI%20SRI%20GOLD%20TESTING%20CENTRE%20Mydukur&output=embed"></iframe></div></div></section>
+
+  <section id="gallery"><div class="wrap"><div class="section-head"><div class="kicker">Photo Gallery</div><h2>Centre, equipment and customer photos</h2><p>Open the official Google Business gallery to view the latest public photos uploaded for the centre.</p></div><div class="gallery-grid">
+    <a class="gallery-card" href="https://maps.app.goo.gl/qDHBpyy9uVs3v8k46" target="_blank" rel="noopener noreferrer"><div><strong>Centre Photos</strong><span>View storefront and interior photos on Google →</span></div></a>
+    <a class="gallery-card" href="https://maps.app.goo.gl/qDHBpyy9uVs3v8k46" target="_blank" rel="noopener noreferrer"><div><strong>Testing Equipment</strong><span>View XRF testing and equipment photos on Google →</span></div></a>
+    <a class="gallery-card" href="https://maps.app.goo.gl/qDHBpyy9uVs3v8k46" target="_blank" rel="noopener noreferrer"><div><strong>Public Gallery</strong><span>See all business and customer photos on Google →</span></div></a>
+  </div></div></section>
+
   <section id="about"><div class="wrap about-grid"><div class="about-badge"><div><div class="mark" style="margin:auto;width:76px;height:76px;font-size:24px">SS</div><p style="color:#f0cc75;font-weight:800;letter-spacing:.16em">PURITY • PRECISION • TRUST</p></div></div><div class="about-copy"><div class="kicker">About the Centre</div><h2>Clear testing is the foundation of trust</h2><p>We responsibly examine the purity of gold and precious metals using modern testing methods and provide clear, easy-to-understand results.</p><p>Our experienced appraisal guidance helps customers understand the weight, purity and value-related details of their items with confidence.</p></div></div></section>
 </main>
 <footer><div class="wrap foot"><span>© 2026 SRI SRI GOLD TESTING CENTRE</span><span>Gold • Purity • Trust</span></div></footer>
+<script>
+  const INR = new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0});
+  const TROY_OUNCE_GRAMS = 31.1034768;
+  const rateIds = {gold24:document.getElementById("gold24"),gold22:document.getElementById("gold22"),silver:document.getElementById("silver")};
+  async function loadRates(){
+    try{
+      const [goldRes,silverRes,fxRes] = await Promise.all([
+        fetch("https://api.gold-api.com/price/XAU",{cache:"no-store"}),
+        fetch("https://api.gold-api.com/price/XAG",{cache:"no-store"}),
+        fetch("https://api.frankfurter.app/latest?from=USD&to=INR",{cache:"no-store"})
+      ]);
+      if(!goldRes.ok||!silverRes.ok||!fxRes.ok) throw new Error("Market service unavailable");
+      const [gold,silver,fx] = await Promise.all([goldRes.json(),silverRes.json(),fxRes.json()]);
+      const usdInr = Number(fx.rates && fx.rates.INR);
+      const goldUsdOz = Number(gold.price);
+      const silverUsdOz = Number(silver.price);
+      if(!usdInr||!goldUsdOz||!silverUsdOz) throw new Error("Incomplete market data");
+      const gold24 = goldUsdOz * usdInr / TROY_OUNCE_GRAMS;
+      const gold22 = gold24 * 22 / 24;
+      const silverGram = silverUsdOz * usdInr / TROY_OUNCE_GRAMS;
+      rateIds.gold24.textContent = INR.format(gold24);
+      rateIds.gold22.textContent = INR.format(gold22);
+      rateIds.silver.textContent = INR.format(silverGram);
+      document.getElementById("rate-status").textContent = "● Live reference data available";
+      document.getElementById("rate-time").textContent = "Updated " + new Date().toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short"});
+    }catch(error){
+      Object.values(rateIds).forEach(el=>el.textContent="Temporarily unavailable");
+      document.getElementById("rate-status").textContent="Market update temporarily unavailable";
+      document.getElementById("rate-status").style.color="#9c4c35";
+      document.getElementById("rate-time").textContent="Please check again shortly";
+    }
+  }
+  loadRates();
+  setInterval(loadRates,30*60*1000);
+</script>
 </body>
 </html>
